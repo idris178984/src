@@ -1,0 +1,33 @@
+package DAY32_Constructor;
+
+public class Testt {
+
+    public Testt(){ //A
+        System.out.println("A");
+    }
+
+    public Testt(int a){ //A  B
+        this();
+        System.out.println("B");
+    }
+
+    public Testt(double a){ //A B C
+        this(10);
+        System.out.println("C");
+    }
+
+    public Testt(String str){ // A B C D
+        this(2.5);
+        System.out.println("D");
+    }
+
+    public static void main(String[] args) {
+
+        new Testt("Java");
+
+    }
+
+
+
+
+}
