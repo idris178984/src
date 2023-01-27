@@ -3,11 +3,14 @@ package day08_IfStatements;
 public class EligibleByCigaretteTask1 {
     public static void main(String[] args) {
 
-      int age =17;
+      int age =19;
       String result="";
 
       if(age>=18){
-          System.out.println("is eligible");
+         // System.out.println("is eligible");
+
+          result="is eligible";
+          System.out.println(result);
       }
       if(age<=18){
           System.out.println("is not eligible");
