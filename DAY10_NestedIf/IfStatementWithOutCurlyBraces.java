@@ -11,6 +11,6 @@ public class IfStatementWithOutCurlyBraces {
         }else if(num==2){
             result ="April";
         }
-
+        System.out.println(result);
     }
 }

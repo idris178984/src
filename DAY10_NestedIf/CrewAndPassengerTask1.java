@@ -25,10 +25,4 @@ public class CrewAndPassengerTask1 {
         System.out.println(result);
 
     }
-
-
-
-
-
-
 }

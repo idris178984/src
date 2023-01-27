@@ -12,7 +12,6 @@ public class TernariesWithNestedIf {
                 System.out.println("failed" );
             }
 
-
         }else{
             System.out.println("invalid");
         }
