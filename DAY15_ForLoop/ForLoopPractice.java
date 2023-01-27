@@ -27,6 +27,7 @@ public class ForLoopPractice {
 
 
         }
+        System.out.println();
         System.out.println("*******************");
         for(int i=2; i<=54;i+=2){
             System.out.print(i+" ");

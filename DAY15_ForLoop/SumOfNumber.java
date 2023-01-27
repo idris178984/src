@@ -8,7 +8,8 @@ public class SumOfNumber {
         int sum=0;
         //1+2+3+4......+100
         for (int i = 1; i <101; i++) {
-            sum +=i;
+            sum += i;
+        }
             System.out.println(sum);
 
             System.out.println("**************");
@@ -24,12 +25,7 @@ public class SumOfNumber {
             System.out.println("total = " + total);
 
 
-
             
         }
-
-
-
-
     }
-}
+

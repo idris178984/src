@@ -7,6 +7,7 @@ public class AlphabetTask1 {
 
             System.out.print(i+" ");
         }
+        System.out.println();
         System.out.println("\n*******************");
 
         for (int i = 0; i <=9 ; i++) {

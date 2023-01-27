@@ -34,8 +34,8 @@ public class DigitCharTask1 {
         int total=0;
 
         for (int j = 0; j < number.length(); j++) {
-            char chars = number.charAt(j);
-            if (chars >= '0' && chars <= '9') {
+            char chars = number.charAt(j);//Each of characters==A,B,C,1,2,3,4,X,Y,Z
+            if (chars >= '0' && chars <= '9') {//CHOOSE THE NUMBER==1,2,3,4
                 total += chars - 48;
             }
         }

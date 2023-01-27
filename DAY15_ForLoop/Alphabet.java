@@ -14,6 +14,13 @@ public class Alphabet {
             System.out.print(i+" ");
 
         }
+        System.out.println();
+
+        for (char i = 'A'; i <='Z'; i++) {
+            System.out.print(i+"  ");
+
+        }
+        System.out.println();
 
 
 
@@ -21,9 +28,6 @@ public class Alphabet {
         for (char i = 'a'; i <= 'z'; i++) {
 
             System.out.print(i+" ");
-
-            System.out.println("*****************");
-
 
 
         }

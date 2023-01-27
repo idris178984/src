@@ -7,8 +7,9 @@ public class idris {
 
         int sum=0;
         for (int i =11; i < 16; i++) {
-            sum+=i;
-            System.out.println(sum);
+            sum += i;
+        }
+        System.out.println(sum);
 
             System.out.println("****************");
 
@@ -18,12 +19,12 @@ public class idris {
             for (int j = 0; j < 5; j++) {
                 System.out.println("Enter a number:" );
                  total+=scan.nextInt();
-                System.out.println( total);
             }
+        System.out.println( total);
 
         }
 
 
 
     }
-}
+
