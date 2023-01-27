@@ -2,17 +2,21 @@ package day08_IfStatements;
 
 public class numberOfDays {
     public static void main(String[] args) {
-        int number = 5 ;
+        int number = 2 ;
         boolean has28Days = number ==2;
         boolean has31Days = number ==1 || number==3 || number==5 || number==7 || number==8 || number ==10 || number == 12;
         boolean has30Days = number ==4 || number==6 || number==9 || number ==11;
 
-        if(has28Days){
-            System.out.println("28 Days");
+      //  if(has28Days) {//if(number=2){System.out.println("28 Days");}
+          //  System.out.println("28 Days");
+       // }
+        if(number==2){System.out.println("28 Days");}
+
             if (has30Days){
                 System.out.println("30 Days");
             }
-if(has31Days){
+
+        if(has31Days){
     System.out.println("31 Days");
 }
         }
@@ -23,7 +27,7 @@ if(has31Days){
 
 
     }
-}
+
 /*
 Name of month : 1~12
 Name of day

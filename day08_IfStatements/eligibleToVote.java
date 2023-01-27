@@ -8,7 +8,7 @@ public class eligibleToVote {
         boolean isEligible = age >=21 && citizen== "USA";
 
         // eligible
-        if(isEligible= age>=21 && citizen == "USA"){
+        if( isEligible=age>=21 && citizen == "USA"){
             System.out.println("Eligible");
         }
 
