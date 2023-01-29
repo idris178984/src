@@ -9,6 +9,7 @@ public class FactorielNumberTask1 {
         System.out.println("Enter a number");
         int num= scan.nextInt();
 
+
         int result=1;
 
         for (int i = (int) num; i >=1; i--) {
