@@ -7,7 +7,7 @@ public class FrequencyOfWord2 {
         int frequency = 0;
 
         for (int i = 0; i <= str.length()-3; i++) {
-            String eachSub =    str.substring(i, i+3 );
+            String eachSub =    str.substring(i, i+3 );//TODO
 
             if(eachSub.equalsIgnoreCase("dog")){
                 frequency++;
