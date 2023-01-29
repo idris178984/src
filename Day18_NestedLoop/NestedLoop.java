@@ -24,7 +24,7 @@ public class NestedLoop {
 
             for (int i = 0; i < 5; i++) { //i: 0,1,2,3,4
                 System.out.println("Wooden Spoon");
-                System.out.println("******************");
+
             }
             System.out.println();
         }
