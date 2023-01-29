@@ -6,6 +6,7 @@ public class InheritanceReview {
 
     public InheritanceReview(int a){
         System.out.println("Parent class' constructor");
+
     }
 
     void method1(){
