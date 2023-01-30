@@ -11,7 +11,8 @@ public class ReverseName {
             String reversed = "";
 
             for (int i = each.length() - 1; i >= 0; i--) { // reverses the string
-                reversed += each.charAt(i);
+                char ch=each.charAt(i);
+                reversed += ch;
             }
 
             System.out.println(reversed);

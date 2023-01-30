@@ -2,10 +2,13 @@ package DAY21_ForEachLoop;
 
 public class UniqueElement {
     public static void main(String[] args) {
+
         String[] words = {"Layan", "Layan", "Oleksandr", "Olga", "Adam", "Adam", "Adam", "Cihad", "Cihad", "Cydeo"};
-        int count = 0;
+
 
         for (String each : words) { // each: "Layan", "Layan", "Oleksandr", "Olga", "Adam", "Adam", "Adam", "Cihad", "Cihad", "Cydeo"
+
+            int count = 0;
 
             for (String element : words) { // element: "Layan", "Layan", "Oleksandr", "Olga", "Adam", "Adam", "Adam", "Cihad", "Cihad", "Cydeo"
                 if(element.equals(each)){
@@ -18,6 +21,7 @@ public class UniqueElement {
             }
 
         }
+
 
 
 

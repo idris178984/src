@@ -7,9 +7,12 @@ public class AverageNumber {
 
         double sum = 0;
 
+
+
         for (int each : numbers) {
             sum += each;
         }
+
 
             double average=sum/numbers.length;
 
