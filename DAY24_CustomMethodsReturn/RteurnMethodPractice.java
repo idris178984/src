@@ -5,8 +5,7 @@ public class RteurnMethodPractice {
     public static void main(String[] args) {
 
         // find the max number between 100 & 200
-        int maxNumber = max(100, 200);
-
+      int maxNumber= max(100, 200);
         System.out.println(maxNumber);
 
 
@@ -15,6 +14,8 @@ public class RteurnMethodPractice {
         int multiplication = maxNumber * 2;
 
         System.out.println("multiplication = " + multiplication);
+
+
 
     }
 

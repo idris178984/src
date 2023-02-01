@@ -3,10 +3,11 @@ package DAY24_CustomMethodsReturn;
 public class ReturnMethodsIntro {
     public static void main(String[] args) {
         String str = "Java";
+        System.out.println(str);
 
         String result =  reverse(str);
 
-        System.out.println(result);
+        System.out.println(reverse(str));
 
         if(str.equalsIgnoreCase(result)){
             System.out.println(str+" is palindrome");
