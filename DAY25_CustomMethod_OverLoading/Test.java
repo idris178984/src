@@ -38,8 +38,23 @@ public class Test {
         String nonDup=StringUtilities.removeDuplicates(s2);
         System.out.println(nonDup);
 
+        System.out.println("*******************");
+        String s3="aaaabbbbcccddddwwwwwwww";
+        String nd= StringUtilities.removeDuplicates(s3);
+        System.out.println(nd);
+
+
+        System.out.println("*******************");
+        String str12="Salih Eren";
+        String reverse12=StringUtilities.reverse(str12);
+        System.out.println(reverse12);
+
+
+
+
 
     }
+
 
 }
 
