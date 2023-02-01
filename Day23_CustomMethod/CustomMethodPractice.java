@@ -12,7 +12,7 @@ public class CustomMethodPractice {
 
         System.out.println("------------------------------");
 
-        evenNumbers();
+        evenNumbers(1,99);
 
     }
 
@@ -38,9 +38,9 @@ public class CustomMethodPractice {
 
 
     // create a function that can print all the even numbers from 1 ~ 10 ==> evenNumbers
-    public static void evenNumbers(){
+    public static void evenNumbers(int x,int y){
 
-        for (int i = 2; i < 11 ; i+=2) {
+        for (int i = x; i < y ; i+=2) {
             System.out.println(i);
         }
 
