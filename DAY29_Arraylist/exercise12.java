@@ -31,10 +31,10 @@ public class exercise12 {
         list2.addAll(Arrays.asList(word));
         System.out.println(list2);
 
-        Integer[] numbers2={1,2,3,4,5,6,7,8,9};
+        int[] numbers2={1,2,3,4,5,6,7,8,9};
 
         ArrayList<Integer>list3=new ArrayList<>();
-        list3.addAll(Arrays.asList(numbers2));
+        list3.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9));
         list3.remove(2);
         System.out.println(list3);
         System.out.println(Arrays.toString(numbers2));
