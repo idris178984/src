@@ -11,8 +11,11 @@ public class ArrayListPractice1 {
 
         // converting array to arraylist:
         ArrayList<String> list = new ArrayList<>( Arrays.asList(countries) );
+        System.out.println("list = " + list);
 
-        list.removeIf( p -> p.length() >= 10 );
+       // list.removeIf( p -> p.length() >= 10 );
+        //list.removeIf(p -> p.length()>=10);
+        list.removeIf(p->p.length()>=10);
 
 
         Collections.sort(list);

@@ -67,8 +67,10 @@ public class BulkOperation {
         Integer[] arr = {1,2,3,4,5,6,7,8,9,10};
 
         ArrayList<Integer> list2 = new ArrayList<>( Arrays.asList(arr));
+        list2.add(11);
 
         System.out.println(list2);
+
 
         System.out.println("-----------------------------------------------------");
 
